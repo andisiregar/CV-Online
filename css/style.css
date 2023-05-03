@@ -1,0 +1,130 @@
+body {
+    font-family: "DM Serif Display",serif ;
+    font-family: "Montserrat", sans-serif;
+    
+    height: 100vh;
+    background-color: #0C001D;
+    overflow: hidden;
+}
+
+.navbar a {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-download {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 9px;
+
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(8.5px);
+    box-shadow: 0 8px 32px 0 rgba( 68, 0, 255, 0.2);
+
+    width: 160px;
+    height: 38px;
+}
+
+.bg-blur {
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(8.5px);
+    box-shadow: 0 8px 32px 0 rgba( 68, 0, 255, 0.2);    
+}
+.heading1 {
+    font-family: "DM Serif", serif;
+    font-size: 70px;
+    color: #fff;
+}
+
+.heading2 {
+    font-family: "DM Serif", serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.bodytext1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.bodytext2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    color: #fff;
+}
+
+.tagline p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: -15px;
+    color: #b5b5b5;
+}
+
+.progress {
+    height: 150px;
+    width: 27px;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.design-progress {
+    height: 90px;
+    width: 27px;
+    background-color: #0067EE;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.development-progress {
+    height: 75px;
+    width: 27px;
+    background-color: #0067EE;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress img, p {
+    z-index: 10;
+    position: relative;
+}
+
+.skills {
+    width: 300px;
+    height: 89px;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #0067EE;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.project p {
+    color: #b5b5b5;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.project img {
+    margin-right: -17px;
+    margin-top: -17px;
+}
+
+.btn-hire {
+    width: 150px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1715px;
+    background-color: #0067EE;
+}
