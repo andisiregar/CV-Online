@@ -1,3 +1,6 @@
+* {
+    z-index: 3;
+}
 body {
     font-family: "DM Serif Display",serif ;
     font-family: "Montserrat", sans-serif;
@@ -20,7 +23,7 @@ body {
 
     background-color: rgba(255, 255, 255, .3);
     backdrop-filter: blur(8.5px);
-    box-shadow: 0 8px 32px 0 rgba( 68, 0, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(68, 0, 255, 0.2);
 
     width: 160px;
     height: 38px;
@@ -29,7 +32,7 @@ body {
 .bg-blur {
     background-color: rgba(255, 255, 255, .3);
     backdrop-filter: blur(8.5px);
-    box-shadow: 0 8px 32px 0 rgba( 68, 0, 255, 0.2);    
+    box-shadow: 0 8px 32px 0 rgba(68, 0, 255, 0.2);    
 }
 .heading1 {
     font-family: "DM Serif", serif;
@@ -63,8 +66,8 @@ body {
 }
 
 .progress {
-    height: 150px;
-    width: 27px;
+    width: 145px;
+    height: 27px;
     font-size: 11px;
     color: #fff;
     border-radius: 5px;
@@ -72,8 +75,8 @@ body {
 }
 
 .design-progress {
-    height: 90px;
-    width: 27px;
+    width: 85px;
+    height: 27px;
     background-color: #0067EE;
     border-radius: 5px;
     position: absolute;
@@ -82,8 +85,8 @@ body {
 }
 
 .development-progress {
-    height: 75px;
-    width: 27px;
+    width: 65px;
+    height: 27px;
     background-color: #0067EE;
     border-radius: 5px;
     position: absolute;
@@ -127,4 +130,131 @@ body {
     font-weight: 700;
     margin-top: 1715px;
     background-color: #0067EE;
+}
+
+.card {
+    width: 260px;
+    height: 130px;
+}
+
+.card h3 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card p {
+    color: #fff;
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.card .btn {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: -10px;
+    background-color: #0067EE;
+}
+
+.profile-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.about-details p {
+    font-size: 11px;
+    font-weight: 700;
+    color: #b5b5b5;
+    margin-top: -10px;
+}
+
+.details a {
+    font-size: 11px;
+    font-weight: 700;
+    color: #b5b5b5;
+    display: block;
+}
+
+.profesi {
+    font-size: 11px;
+    font-weight: 700;
+    width: 172px;
+    height: 38px;
+    padding: 8px 8px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.profesi-icon {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    line-height: 18px;
+}
+
+.circle-blur-1 {
+    width: 800px;
+    height: 800px;
+    background-color: #E604C1;
+    border-radius: 50%;
+    position: absolute;
+    top: -400px;
+    left: -300px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-2 {
+    width: 800px;
+    height: 800px;
+    background-color: #E604C1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -600px;
+    left: 150px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-3 {
+    width: 800px;
+    height: 800px;
+    background-color: #5D00FF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -400px;
+    right: -300px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.circle-blur-4 {
+    width: 400px;
+    height: 500px;
+    background-color: #5D00FF;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    right: 150px;
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.glass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur (4px);
+    filter: blur(10px);
+    z-index: 2;
 }
